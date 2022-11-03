@@ -1,0 +1,111 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(#C2BBF0, #0FA3B1);
+    color: white;
+}
+
+
+#header {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+h2 {
+    font-size: 36px;
+}
+
+#bday-age {
+    font-size: 20px;;
+    background-color: #B9D6F2;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+#bday-date {
+    font-size: 15px;
+    background-color: #B9D6F2;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+#dog-photo {
+    width: 225px;
+    border-radius: 50%;
+    border: 4px solid #B9D6F2;
+}
+
+#eat-section {
+    margin-top: 100px;
+}
+
+#gift-cover {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    border: 8px solid #B9D6F2;
+    border-radius: 20px; 
+}
+
+#toys-section {
+    margin-top: 100px;
+}
+
+#gift-cover-toys {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    border: 8px solid #B9D6F2;
+    border-radius: 20px;
+}
+
+#family-section {
+    margin-top: 100px;
+}
+
+#family-cover {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    border: 8px solid #B9D6F2;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+#gift-cover:hover {
+    background-image: url("images/jedzenie.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: ease-out 70ms;
+}
+
+#gift-cover-toys:hover {
+    background-image: url("images/zabawki.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: ease-out 70ms;
+}
+
+#family-cover:hover {
+    background-image: url("images/rodzina.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: ease-in 70ms;
+}
